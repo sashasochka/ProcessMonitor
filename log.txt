@@ -1,0 +1,6 @@
+[Log]: Process exited with 0 exit-code
+[Log]: Process started
+[Log]: Process exited with 0 exit-code
+[Log]: Process started
+[Log]: Process exited with 0 exit-code
+[Log]: Process started

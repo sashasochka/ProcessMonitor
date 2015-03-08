@@ -1,0 +1,29 @@
+<!-- <?xml version="1.0" encoding="UTF-16"?> -->
+<instrumentationManifest
+    xmlns="http://schemas.microsoft.com/win/2004/08/events"
+    xmlns:win="http://manifests.microsoft.com/win/2004/08/windows/events"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    >
+
+  <instrumentation>
+    <events>
+
+      <provider name="Microsoft-Windows-ETWProvider"
+          guid="{9BF382B7-45B9-4DE4-8BE6-B204F09B96F3}"
+          symbol="ProviderGuid"
+          resourceFileName="c:\code\etw\v2provider\debug\v2provider.exe"
+          messageFileName="c:\code\etw\v2provider\debug\v2provider.exe"
+                >
+        <events>
+          <event value="1"
+              level="win:Informational"
+              symbol="LogEvent" />
+          <event value="2"
+              level="win:Informational"
+              symbol="ErrEvent" />
+        </events>
+
+      </provider>
+    </events>
+  </instrumentation>
+</instrumentationManifest>
